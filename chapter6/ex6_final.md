@@ -14,7 +14,7 @@ data2 dw声明的值：
 2. 如果可能的话，尝试编写一个主引导扇区程序来做上面的工作。
 3. 请问下面的循环将执行多少次：
             `mov cx,0`
-    `delay: loop delay`
+    `delay: loop delay`  
 答：~~0次，因为cx的值为0，忽略这个`loop delay`指令，而执行程序后面的指令。~~
 
 更正：`loop`指令的格式是：loop标号，CPU执行loop指令的时候，要进行两部操作，
